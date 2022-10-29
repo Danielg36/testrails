@@ -1,0 +1,11 @@
+<%= @article.title%>
+<br>
+<%= @article.body%>
+
+<br>
+
+<ul>
+  <li><%= link_to "Edit", edit_article_path(@article) %></li>
+</ul>
+
+<%= link_to 'Articles index', root_path %>
